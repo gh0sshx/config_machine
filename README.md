@@ -80,6 +80,14 @@ Configure my new machine
     ZSH_HIGHLIGHT_STYLES[bracket-level-5]=fg=cyan,bold
     ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]=standout
 
+**Editar y agregar plugins a zshrc, salir o actualizar zshrc**
+
+    nano $HOME/.zshrc
+>
+    sudo zsh-syntax-highlighting
+>
+    source $HOME/.zshrc
+
 ### Fonts
 
 **Desde la [nerdfonts](https://www.nerdfonts.com/font-downloads) descargar [Symbols Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/NerdFontsSymbolsOnly.zip)**
