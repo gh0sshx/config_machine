@@ -15,4 +15,4 @@ echo "fi" >> $HOME/.zshrc
 
 sudo ln -s /etc/profile.d/vte-2.91.sh /etc/profile.d/vte.sh
 
-sudo python3 omz_root.py
+# sudo python3 omz_root.py
