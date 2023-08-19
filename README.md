@@ -5,6 +5,13 @@ Configure my new machine
 
     sudo apt update && sudo apt upgrade -y
 
+### TILIX y zsh
+
+    sudo apt install git curl tiliz zsh -y
+>
+    chmod +x configure_omz.sh && ./configure_omz.sh
+>
+
 **Personalizacion**
 
     chmod +x decompress_and_move.sh && ./decompress_and_move.sh
@@ -105,10 +112,5 @@ Configure my new machine
 >
     gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Ctrl><Super>Right']"
 
-### TILIX y zsh
-
-    sudo apt install git curl tiliz zsh -y
->
-    chmod +x configure_omz.sh && ./configure_omz.sh
 
     
