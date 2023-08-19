@@ -24,6 +24,7 @@ cp -r $HOME/Documents/customize/Orchis-Teal/* $HOME/.themes/ >/dev/null
 unzip kora-grey-1-6-0.zip >/dev/null
 cp -r $HOME/Documents/customize/kora_grey/* $HOME/.icons/ >/dev/null
 
+mkdir -p $HOME/.config/gtk-4.0/
 cp -r $HOME/Documents/customize/Colloid/Colloid-Dark/gtk-4.0/* $HOME/.config/gtk-4.0
 
 echo -e "[+] Cerrando sesión"
