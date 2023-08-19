@@ -7,13 +7,15 @@ Configure my new machine
 
 ### TILIX y zsh
 
-    sudo apt install git curl tiliz zsh -y
+    sudo apt install git curl tilix zsh -y
 >
     chmod +x configure_omz.sh && ./configure_omz.sh
 >
 
 **Personalizacion**
 
+    git clone https://github.com/gh0sshx/config_machine.git
+>
     chmod +x decompress_and_move.sh && ./decompress_and_move.sh
 
 ### Fonts
