@@ -9,14 +9,18 @@ Configure my new machine
 
     sudo apt install git curl tilix zsh -y
 >
-    chmod +x configure_omz.sh && ./configure_omz.sh
+    chsh -s /bin/zsh
 >
+    sudo -i && chsh -s /bin/zsh
 
 **Personalizacion**
 
     git clone https://github.com/gh0sshx/config_machine.git
 >
     chmod +x decompress_and_move.sh && ./decompress_and_move.sh
+>
+    chmod +x configure_omz.sh && ./configure_omz.sh
+>
 
 ### Fonts
 
@@ -75,8 +79,9 @@ Configure my new machine
     Just Perfection
 
 **Opcional**
->
+
     Wallpaper Switcher 
+
 > Hacer ajustes
 
 **Executor**
