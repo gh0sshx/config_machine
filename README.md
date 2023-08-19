@@ -11,11 +11,15 @@ Configure my new machine
 >
     chsh -s /bin/zsh
 >
-    sudo -i && chsh -s /bin/zsh
+    sudo -i
+>
+    chsh -s /bin/zsh
+>
+    exit
 
 **Personalizacion**
 
-    git clone https://github.com/gh0sshx/config_machine.git
+    git clone https://github.com/gh0sshx/config_machine.git && cd config_machine/
 >
     chmod +x decompress_and_move.sh && ./decompress_and_move.sh
 >
