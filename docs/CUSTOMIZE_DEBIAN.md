@@ -142,6 +142,8 @@
 **Opcional**
 
     Wallpaper Switcher 
+>
+    Logo Activities
 
 > Hacer ajustes
 
